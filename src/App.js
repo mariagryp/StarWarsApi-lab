@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Films from "./components/Films";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style = {{
+    backgroundColor: '#F7E11E',
+    fontFamily: "Helvetica",
+    display: 'flex', 
+    flexDirection: "column", 
+    justifyContent: "center", 
+    alignItems: "center",
+    height: "100vh",
+    }}> 
+       <h1 style={{
+         fontSize:'72px'
+       }}>Star Wars</h1>
+
+    <Films />
     </div>
   );
 }
