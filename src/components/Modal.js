@@ -1,3 +1,4 @@
+
 const Modal = ({children, setModalOpen}) => {
     return (
         <div style = {{
@@ -12,8 +13,8 @@ const Modal = ({children, setModalOpen}) => {
             alignItems: "center",
         }}> 
         <div style = {{
-            width: '50%',
-            height: '50vh',
+            width: '50vh',
+            height: '70vh',
             backgroundColor:"black",
             padding: "20px",
         }}>

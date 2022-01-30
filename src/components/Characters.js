@@ -40,7 +40,7 @@ return(
     {chars.length > 0 && (
     <div 
     style={{
-        maxHeight: "35vh", 
+        maxHeight: "40vh", 
         marginTop: "10px", 
         overflow: "auto",
         /* borderBottom: "6px solid #e1e1e1", */
@@ -59,10 +59,10 @@ return(
     {char.name}</p>)}   
     </div>
     )}
-{chars.length <= 0 && (
+    {chars.length <= 0 && (
     <div 
     style={{
-        height:"30vh", 
+        height:"40vh", 
         display:"flex",
         alignItems:"center",
         justifyContent: "center",

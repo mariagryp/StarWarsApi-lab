@@ -1,10 +1,10 @@
 import Films from "./components/Films";
 
-
-
 function App() {
+
   return (
-    <div style = {{
+    <div 
+    style = {{
     backgroundColor: '#F7E11E',
     fontFamily: "Helvetica",
     display: 'flex', 
